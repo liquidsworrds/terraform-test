@@ -8,7 +8,12 @@ variable "eip_tags" {
   type = map(any)
 }
 
+variable "igw_tags" {
+  description = "Tags for the IGW"
+  type = map(any)
+}
+
 variable "nat_gw_tags" {
-  description = "Tags for the NAT GW"
+  description = "Tags for the NatGW"
   type = map(any)
 }
