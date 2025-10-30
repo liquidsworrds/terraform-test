@@ -12,3 +12,8 @@ variable "nat_gw_tags" {
   description = "Tags for the NAT GW"
   type = map(any)
 }
+
+variable "igw_tags" {
+  description = "Tags for the IGW"
+  type = map(any)
+}
